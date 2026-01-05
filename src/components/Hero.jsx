@@ -34,20 +34,22 @@ const Hero = () => {
                         Elevating urban beverage culture. Sophisticated sips, curated vibes, and a taste of Bandra.
                     </p>
                     <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
-                        <motion.button
+                        <motion.a
+                            href="#story"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="btn-primary w-full md:w-auto"
+                            className="btn-primary w-full md:w-auto text-center"
                         >
-                            Explore Menu
-                        </motion.button>
-                        <motion.button
+                            Our Story
+                        </motion.a>
+                        <motion.a
+                            href="#visit"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="btn-secondary w-full md:w-auto"
+                            className="btn-secondary w-full md:w-auto text-center"
                         >
-                            Shop Merch
-                        </motion.button>
+                            Visit Us
+                        </motion.a>
                     </div>
                 </motion.div>
             </div>

@@ -6,6 +6,10 @@
   --accent-sage: #A8B5A0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   body {
     @apply bg-black text-white selection:bg-accent-sage/30 selection:text-white;
